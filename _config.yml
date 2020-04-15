@@ -1,0 +1,56 @@
+# Site
+name: 'AI Tech'
+description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+logo: 'assets/images/logo.png'
+# favicon: 'assets/images/favicon.ico'
+baseurl: ''
+disqus: 'demowebsite'
+email: 'wowthemesnet@gmail.com'
+# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    hanhbd:
+      name:           Hanhbd
+      # site:           https://www.wowthemes.net
+      avatar:         ./assets/images/avatart.jpg
+      bio:            "Xin chào, Tôi là Hạnh. Blog này được xây dựng với mục đích chia sẻ kiến thức, kinh nghiệm của tôi về AI. Hi vọng những bài viết ở đây có thể giúp ích cho mọi người"
+      email:          buiduchanh312@gmail.com
+      facebook:       https://www.facebook.com/buiduc.hanh.50
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: hanhbd
+      avatar: ./assets/images/avatart.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
