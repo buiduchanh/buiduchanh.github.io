@@ -2,7 +2,7 @@
 layout: post
 title:  "Cài đặt Opencv với GPU"
 author: hanhbd
-categories: [Tutorial, Opencv ]
+categories: [ Opencv ]
 image: assets/images/Install-opencv\/opencv_img.png
 tags: featured
 mathjax: true

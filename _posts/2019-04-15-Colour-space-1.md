@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Các hệ màu cơ bản trong xử lý ảnh (Phần I)"
+title:  "Các hệ màu cơ bản trong xử lý ảnh"
 author: hanhbd
-categories: [Tutorial, Opencv ]
+categories: [ Opencv ]
 image: assets/images/colour_space/rgb.jpg
 tags: [featured]
 comments: true
@@ -17,7 +17,7 @@ Không gian màu (Colour Space) được hiểu là các mô hình toán để m
     * [Hệ màu HSV](#hsv)
     * [Ảnh xám và ảnh nhị phân](#gray_bianry)
 * [Kết luận](#summary)
-* [Reference](#refer)
+* [Tham khảo](#refer)
 
 <a name="colourspace"></a>
 ## Các hệ màu cơ bản
@@ -115,7 +115,7 @@ Thức tế với các bài toán khi có ảnh rõ ràng thì hoàn toàn có t
 Bài viết này tổng hợp và khái quát sơ bộ một số hệ màu cơ bản được dùng nhiều trong xử lý ảnh và ứng dụng trong các trường hợp thực tế. Mong bài viết sẽ có ích cho mọi người :D
 
 <a name="refer"></a>
-## Reference
+## Tham khảo
 
 [Code](https://github.com/buiduchanh/Opencv_tutorial/tree/master/Colour_space)
 
